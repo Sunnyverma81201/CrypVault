@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bottom_sheet_dark_background">#6a5ea2</color>
+    <color name="bottom_sheet_light_background">#b4a4fa</color>
+    <color name="warning_dark">#eaa36f</color>
+    <color name="warning_light">#c6763c</color>
+    <color name="bottom_sheet_options_background_dark">#393355</color>
+    <color name="bottom_sheet_options_background_light">#f1effe</color>
+    <color name="app_background_dark">#524976</color>
+    <color name="app_background_light">#f2efff</color>
+    <color name="app_text_dark">#F1EFFF</color>
+    <color name="app_text_light">#3a3357</color>
+    <color name="accent">#8577bf</color>
+    <color name="app_text_normal_light">#707070</color>
+</resources>

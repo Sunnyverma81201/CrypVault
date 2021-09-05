@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_name_hint" translatable="false">CrypVault का नाम</string>
+    <string name="warning">चेतावनी: यदि आप फ़ाइल अनुक्रम भूल जाते हैं या फ़ाइलें खो देते हैं तो तिजोरी नहीं खुलेगी।</string>
+    <string name="empty_vault">आपकी तिजोरी में कोई डेटा नहीं</string>
+    <string name="no_file_selected">3 फ़ाइलें जोड़ें</string>
+    <string name="vault_unlock_images_selection_massage">उसी क्रम में छवियों का चयन करें जैसे एन्क्रिप्शन के समय चयन करें</string>
+    <string name="button_secure_vault">तिजोरी सुरक्षित करें</string>
+    <string name="button_open_vault">तिजोरी खोलें</string>
+    <string name="empty_list">खाली सूची</string>
+    <string name="fab_hint">तिजोरी जोड़ने वाले मेनू का विस्तार करें</string>
+</resources>
