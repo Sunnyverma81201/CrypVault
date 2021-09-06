@@ -3,7 +3,6 @@
     <style name="Theme.CrypVault" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/app_background_light</item>
-        <item name="colorPrimaryVariant">@color/accent</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="android:textColor">@color/app_text_light</item>
         <!-- Secondary brand color. -->
@@ -16,5 +15,10 @@
         <item name="android:navigationBarColor">?attr/colorSecondary</item>
         <!-- Customize your theme here. -->
         <item name="backgroundColor">@color/app_background_light</item>
+        <item name="buttonStyle">@style/CustomButton</item>
+    </style>
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">#FFF</item>
     </style>
 </resources>

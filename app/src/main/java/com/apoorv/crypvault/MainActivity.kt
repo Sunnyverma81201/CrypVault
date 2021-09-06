@@ -15,13 +15,17 @@ class MainActivity : AppCompatActivity() {
         val bottomSheet: LinearLayout  = findViewById(R.id.bottom_sheet)
         val bottomSheetBehavior: BottomSheetBehavior<*> = BottomSheetBehavior.from(bottomSheet)
 
+
+
         bottomSheetToggleButton.setOnClickListener {
             Log.i(Log.INFO.toString(),"BottomSheet Toggled")
 
             if(bottomSheetBehavior.state == BottomSheetBehavior.STATE_EXPANDED){
                 bottomSheetBehavior.state = BottomSheetBehavior.STATE_COLLAPSED
+                bottomSheetToggleButton.rotation = bottomSheetToggleButton.rotation - 45
             }else if(bottomSheetBehavior.state == BottomSheetBehavior.STATE_COLLAPSED){
                 bottomSheetBehavior.state = BottomSheetBehavior.STATE_EXPANDED
+                bottomSheetToggleButton.rotation = bottomSheetToggleButton.rotation + 45
             }
         }
     }

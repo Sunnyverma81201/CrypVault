@@ -10,9 +10,9 @@
     android:orientation="vertical"
     android:gravity="center"
     android:paddingTop="5dp"
+    android:paddingHorizontal="10dp"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
-    app:behavior_peekHeight = "80dp"
-    app:behavior_hideable = "true">
+    app:behavior_peekHeight = "80dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,6 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/fab_hint"
             android:src="@drawable/ic_baseline_add_24"
-            app:backgroundTint="?attr/colorPrimaryVariant"
             app:fabSize="normal" />
 
         <EditText
@@ -157,7 +156,6 @@
         android:layout_width="wrap_content"
         android:layout_height="58dp"
         android:layout_marginBottom="20dp"
-        android:textColor="?attr/colorOnSecondary"
-        android:background="@drawable/button_background"
-        android:text="@string/button_secure_vault" />
+        android:text="@string/button_secure_vault"
+        style="@style/CustomButton"/>
 </LinearLayout>

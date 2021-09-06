@@ -3,7 +3,6 @@
     <style name="Theme.CrypVault" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/app_background_dark</item>
-        <item name="colorPrimaryVariant">@color/accent</item>
         <item name="colorOnPrimary">@color/black</item>
         <item name="android:textColor">@color/app_text_dark</item>
         <!-- Secondary brand color. -->
