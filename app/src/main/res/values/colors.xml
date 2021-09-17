@@ -12,5 +12,6 @@
     <color name="app_background_light">#f2efff</color>
     <color name="app_text_dark">#F1EFFF</color>
     <color name="app_text_light">#3a3357</color>
+    <color name="accent">#8577bf</color>
     <color name="app_text_normal_light">#707070</color>
 </resources>

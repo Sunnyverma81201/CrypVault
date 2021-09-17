@@ -14,5 +14,21 @@
         <item name="android:navigationBarColor">?attr/colorSecondary</item>
         <!-- Customize your theme here. -->
         <item name="backgroundColor">@color/app_background_dark</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+
     </style>
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">#000</item>
+    </style>
+    <style name="warningColor" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/warning_dark</item>
+    </style>
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
 </resources>

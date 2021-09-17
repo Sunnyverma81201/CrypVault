@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">CRYPVAULT</string>
-    <string name="warning">WARNING: If you forget the\nfile Sequence or loose the files then \nthe vault would not open.</string>
+    <string name="warning"><b>WARNING:</b> If you forget the\nfile Sequence or loose the files then \nthe vault would not open.</string>
     <string name="empty_vault">No data in your vault</string>
     <string name="vault_name_hint">CrypName</string>
     <string name="no_file_selected">Add 3 files</string>

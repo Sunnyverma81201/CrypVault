@@ -14,6 +14,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
+
         <TextView
             android:id="@+id/title_text"
             android:layout_width="wrap_content"
@@ -27,7 +28,7 @@
             android:textSize="26sp"
             android:textStyle="bold" />
 
-        <LinearLayout
+        <RelativeLayout
             android:id="@+id/vault_layout"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -37,26 +38,47 @@
             android:layout_margin="30dp"
             android:gravity="center"
             android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/no_vault_add_button"
+                android:background="@drawable/add_data_indicator"
+                android:src="@drawable/ic_baseline_add_24"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:visibility="invisible"/>
+            <TextView
+                android:id="@+id/empty_list_indicator"
+                android:layout_below="@id/no_vault_add_button"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="16sp"
+                android:text="@string/empty_list"
+                android:visibility="invisible"/>
 
             <ListView
                 android:id="@+id/vault_list"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="25dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
             </ListView>
-        </LinearLayout>
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/warning"
-            android:layout_width="match_parent"
+            style="@style/warningColor"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:maxWidth="240dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginBottom="120dp"
             android:text="@string/warning"
-            android:textAlignment="center"
-            android:textColor="@color/warning_light"
-            android:textSize="14sp"
-            tools:layout_editor_absoluteX="40dp" />
+            android:textSize="14sp" />
     </RelativeLayout>
 
     <include layout="@layout/bottom_sheet" />
